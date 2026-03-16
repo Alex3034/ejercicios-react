@@ -3,6 +3,7 @@ import './App.css'
 import Ejercicio1 from './ejercicios/ejercicios_1/ejercicios_1'
 import Ejercicio2 from './ejercicios/ejercicios_2/ejercicios_2'
 import Ejercicio3 from './ejercicios/ejercicios_3/ejercicios_3'
+import Ejercicio4 from './ejercicios/ejercicios_4/ejercicios_4'
 
 function App() {
   const [currentExercise, setCurrentExercise] = useState(null)
@@ -16,7 +17,7 @@ function App() {
       case 3:
         return <Ejercicio3 />
       case 4:
-        return <div><h2>Ejercicio 4</h2><p>Pendiente de implementación.</p></div>
+        return <Ejercicio4 />
       case 5:
         return <div><h2>Ejercicio 5</h2><p>Pendiente de implementación.</p></div>
       case 6:
