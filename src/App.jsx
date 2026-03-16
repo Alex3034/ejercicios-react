@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Ejercicio1 from './ejercicios/ejercicios_1/ejercicios_1'
+import Ejercicio2 from './ejercicios/ejercicios_2/ejercicios_2'
 
 function App() {
   const [currentExercise, setCurrentExercise] = useState(null)
@@ -10,7 +11,7 @@ function App() {
       case 1:
         return <Ejercicio1 />
       case 2:
-        return <div><h2>Ejercicio 2</h2><p>Pendiente de implementación.</p></div>
+        return <Ejercicio2 />
       case 3:
         return <div><h2>Ejercicio 3</h2><p>Pendiente de implementación.</p></div>
       case 4:
