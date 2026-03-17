@@ -5,6 +5,7 @@ import Ejercicio2 from './ejercicios/ejercicios_2/ejercicios_2'
 import Ejercicio3 from './ejercicios/ejercicios_3/ejercicios_3'
 import Ejercicio4 from './ejercicios/ejercicios_4/ejercicios_4'
 import Ejercicio5 from './ejercicios/ejercicios_5/ejercicios_5'
+import Ejercicio6 from './ejercicios/ejercicios_6/ejercicios_6'
 
 function App() {
   const [currentExercise, setCurrentExercise] = useState(null)
@@ -22,7 +23,7 @@ function App() {
       case 5:
         return <Ejercicio5 />
       case 6:
-        return <div><h2>Ejercicio 6</h2><p>Pendiente de implementación.</p></div>
+        return <Ejercicio6 />
       case 7:
         return <div><h2>Ejercicio 7</h2><p>Pendiente de implementación.</p></div>
       case 8:
